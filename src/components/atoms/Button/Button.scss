@@ -2,5 +2,10 @@
 @import "styles/colors.scss";
 
 .button {
-  color: $main-color;
+  color: var(--color-primary);
+  background-color: aqua;
+}
+
+button {
+  color: var(--color-primary);
 }
