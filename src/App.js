@@ -1,13 +1,11 @@
 import "app.scss";
-import Button from "components/atoms/Button/Button";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>React Template</h1>
-      <Button />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="root">
+            <h1>React Template</h1>
+        </div>
+    );
+};
 
 export default App;
